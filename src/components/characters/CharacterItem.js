@@ -11,7 +11,7 @@ const CharacterItem = ({ item }) => {
           <h1>{item.animeTitle}</h1>
           <ul>
             <li>
-              <strong>Title:</strong> {item.animeTitle}
+              <strong>Name:</strong> {item.animeTitle}
             </li>
             <li>
               <strong><a href={item.animeUrl}>Where To Watch</a></strong> 
